@@ -1,27 +1,15 @@
 
+*{
+	box-sizing: border-box;
+}
 
+body{
+	background-color: blueviolet;
+	color: white;
+	display: flex;
+	flex-direction: column;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
