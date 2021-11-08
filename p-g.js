@@ -43,7 +43,7 @@ generate.addEventListener('click', () => {
     const hasNumber = numbersEl.checked;
     const hasSymbol = symbolsEl.checked;
 
-    resultEl.innerText = generatePassword(length, hasLower, hasUpper, hasNumber, hasSymbol);
+    resultEl.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, length);
 
 });
 
@@ -59,7 +59,7 @@ function generatePassword(lower, upper, number, symbol, length){
 
     const typesCount = lower + upper + number + symbol;
 
-    const typesArr = [{ lower }, { upper }, { symbol }, { number }].filter(item => Object.values(item)[0]);
+    const typesArr = [{lower}, {upper}, {symbol}, {number}].filter(item => Object.values(item)[0]);
 
     // console.log('typesArr', typesArr);
     //Does not have a selected type:
