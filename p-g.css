@@ -17,8 +17,10 @@ body{
 }
 
 h2{
-margin: 10px 0 20px;
-text-align: center;
+	margin:10px 0 20px ;
+	text-align: center;
+	font-size: 20px;
+
 }
 
 input[type=checkbox] {
@@ -49,10 +51,10 @@ input[type=checkbox] {
 	border-radius: 8px;
 }
 
-.result-container #result{
+/* .result-container #result{
 	word-wrap: break-word;
 	 max-width: calc(100% - 40%);
-} 
+}  */
 
 .result-container .btn{
 	font-size: 20px ;
@@ -85,3 +87,23 @@ input[type=checkbox] {
 	align-items: center;
 	margin: 12px 0;
 } 
+
+#footer{
+	margin-top: 50px;
+	font-size: 18px;
+	text-decoration: 2px underline rgb(0, 255, 242);
+	text-decoration-style: dotted;
+	/* text-shadow: 2px solid lime; */
+
+}
+#footer :hover{
+	color: rgb(80, 255, 11);
+	cursor: pointer;
+}
+a{
+	color: white;
+	text-decoration: none 2px rgb(0, 255, 242);
+}
+a:hover{
+	color:rgb(80, 255, 11);
+}
